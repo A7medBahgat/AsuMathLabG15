@@ -4,7 +4,10 @@ Intro
 -----
 ASU-Math-Lab-Project aims to Implement mathematical library software
 Similar to Matlab, Octave and similar tools.
-This is a complete C/C++ Implementation that developed under Linux environment.
+
+Environment
+-----------
+ This is a complete C/C++ Implementation that developed under Linux environment.
 
 It consists of three phases:
 
