@@ -7,8 +7,10 @@ Similar to Matlab, Octave and similar tools.
 
 Environment
 -----------
- This is a complete C/C++ Implementation that developed under Linux environment.
+This is a complete C/C++ Implementation that developed under Linux environment.
 
+Phases
+------
 It consists of three phases:
 
 - Phase 1: Core Operations
