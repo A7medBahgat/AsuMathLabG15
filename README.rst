@@ -23,6 +23,16 @@ Phase 1 Requirements
 - Support addition, subtraction, multiplication, transpose and division
 - Process input user commands and show results directly 
 - Process input file, show each step result then exit
+Supported Operations
+--------------------
+- add ( + )
+- sub ( - )
+- mult ( * )
+- div ( / )
+- elementWiseDiv ( ./ )
+- cascaded equal
+Operations Example
+------------------
 ::
 
     > A = [1.4 2.2 3.2; 4.4 5.4 6.4; 3.3 4.2 2.2];
@@ -43,6 +53,17 @@ Phase 2: Advanced Operations and Tuning
     Accept matrix in matrix, expressions and variables.
 - Support error handling.
     Do not crash for invalid input.
+Supported Operations
+--------------------
+- supported operations in phase 1
+- Sine 
+- Power
+- Sqrt
+- Log
+- matrix parser
+- rand( , ), eye( , ), zeros( , )and ones( , )
+Operations Example
+------------------
 ::
 
     A = [1.4 2.2 3.2; 4.4 5.4 6.4; 3.3 4.2 2.2];
@@ -58,6 +79,8 @@ Phase 2: Advanced Operations and Tuning
     X = ((C*D .+ 4)./2.1 + sqrt(D))./C.^2
     Y = (C^3 * sin(1./D))^(0.1)
 
-
+Debugging
+---------
+We use the Valgrind Profiler for profiling
 
 
